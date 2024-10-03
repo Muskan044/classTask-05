@@ -15,21 +15,25 @@ body {
 
 .container {
     text-align: center;
-    background-color: #1e90ff;
+    background-color: #2e84db;
     width: 500px;
     height: 280px;
 }
 .calculator {
-    margin-bottom: 20px;
-    padding: 30px 5px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 20px 2px;
     background-color: #000;
+    border-radius: 8px;
    
 }
 input[type="date"] {
-    padding: 10px;
+    padding: 7px;
     border-radius: 5px;
     border: 2px solid #fff;
     font-size: 16px;
+    margin-right: 20px;
 }
 button {
     padding: 10px 20px;
@@ -43,23 +47,28 @@ button {
 
 .results {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 40px;
 }
 .box {
     background-color: #000;
     color: #fff;
     margin:0 10px;
-    padding: 5px;
+    padding: 5px 10px;
     justify-content: center;
-    border-radius: 10px;
-    width: 70px;
+    border-radius: 8px;
+    width: 90px;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 30px;
     margin-bottom: 10px;
+    padding-top: 8px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 12px;
+    color: gray;
+    padding-bottom: 8px;
 }
